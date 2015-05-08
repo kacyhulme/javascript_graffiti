@@ -1,6 +1,12 @@
 #navbar li {
   list-style-type: none; }
 
+#contact {
+  background-color: #a396f3; }
+
+#about {
+  background-color: #a396f3; }
+
 body {
   background-color: MediumSlateBlue;
   font: 100% "Roboto Condensed", sans-serif; }
@@ -40,5 +46,8 @@ body {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+#contact {
+  background-color: #a396f3; }
 
 /*# sourceMappingURL=main.css.css.map */

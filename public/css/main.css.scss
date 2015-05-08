@@ -1,8 +1,10 @@
 @import 'variables';
 @import 'navbar';
+@import 'contact';
+@import 'about';
 
 body {
-  background-color: MediumSlateBlue;
+  background-color: $background-color;
   font: 100% $font-stack;
 }
 
@@ -47,4 +49,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
+#contact {
+  background-color: $secondary-background-color;
+}
