@@ -39,6 +39,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  min-height: 150px;
+  min-width: 150px;
+  max-height: 500px;
+  max-width: 650px;
 }
 
 #overlay p {
