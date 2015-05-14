@@ -2,10 +2,11 @@
 @import 'navbar';
 @import 'contact';
 @import 'about';
+@import 'canvas';
 
 body {
-  background-color: $background-color;
-  font: 100% $font-stack;
+  // background-color: $background-color;
+  // font: 100% $font-stack;
 }
 
 #gallerywrapper {
@@ -51,8 +52,4 @@ body {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-#contact {
-  background-color: $secondary-background-color;
 }

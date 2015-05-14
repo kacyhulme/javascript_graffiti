@@ -1,3 +1,8 @@
 $font-stack:'Roboto Condensed', sans-serif;
-$background-color: MediumSlateBlue;
-$secondary-background-color: lighten($background-color, 10%)
+$about-primary-color: #6250D3;
+$about-secondary-color: darken($about-primary-color, 10%);
+$about-third-color: #AA9FEE;
+$contact-primary-color: #DE0043;
+$contact-secondary-color: #F04579;
+$contact-third-color: #FF7D49;
+$contact-fourth-color: #CD3BCD;

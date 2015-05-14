@@ -1,5 +1,18 @@
 @import 'variables';
 
 #about {
-  background-color: $secondary-background-color;
+  background: linear-gradient($about-primary-color, white);
+}
+
+.center {
+  border: 1px solid white;
+  padding: 10px 20px 30px 20px;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $about-secondary-color;
+  box-shadow: 0 0 8px #000000;
+  text-align: center;
 }

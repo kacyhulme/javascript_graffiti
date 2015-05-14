@@ -1,15 +1,34 @@
-#navbar li {
-  list-style-type: none; }
-
 #contact {
-  background-color: #a396f3; }
+  background: linear-gradient(#FF7D49, #DE0043); }
+
+#main {
+  border: 2px solid #CD3BCD;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  height: 90%;
+  padding: 5%;
+  margin: 2%; }
 
 #about {
-  background-color: #a396f3; }
+  background: linear-gradient(#6250D3, white); }
 
-body {
-  background-color: MediumSlateBlue;
-  font: 100% "Roboto Condensed", sans-serif; }
+.center {
+  border: 1px solid white;
+  padding: 10px 20px 30px 20px;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4430c0;
+  box-shadow: 0 0 8px #000000;
+  text-align: center; }
+
+canvas {
+  background: white;
+  height: 100%;
+  width: 100%; }
 
 #gallerywrapper {
   height: 100%; }
@@ -50,8 +69,5 @@ body {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%); }
-
-#contact {
-  background-color: #a396f3; }
 
 /*# sourceMappingURL=main.css.css.map */

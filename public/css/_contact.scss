@@ -1,5 +1,15 @@
 @import 'variables';
 
 #contact {
-  background-color: $secondary-background-color;
+  background: linear-gradient($contact-third-color, $contact-primary-color);
+}
+
+#main {
+  border: 2px solid $contact-fourth-color;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  height: 90%;
+  padding: 5%;
+  margin: 2%;
 }
