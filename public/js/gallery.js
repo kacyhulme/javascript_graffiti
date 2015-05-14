@@ -21,3 +21,44 @@ $("#gallerywrapper a").click(function(event){
 $overlay.click(function(){
   $overlay.hide();
 });
+
+////////canvas/////////
+
+var $canvas = $("canvas");
+var context = $canvas[0].getContext("2d");
+var lastEvent;
+var mouseDown = false;
+
+//On mouse events on the canvas
+$canvas.mousedown(function(e){
+  lastEvent = e;
+  mouseDown = true;
+}).mousemove(function(e){
+  //Draw lines
+  if(mouseDown) {
+    context.beginPath();
+    context.moveTo(lastEvent.offsetX, lastEvent.offsetY);
+    context.lineTo(e.offsetX, e.offsetY);
+    context.stroke();
+    lastEvent = e;
+  }
+}).mouseup(function(){
+  mouseDown = false;
+}).mouseleave(function(){
+  $canvas.mouseup();
+  context.save();
+});
+
+$("button").click(function() {
+  context.clearRect(0, 0, 500, 500);
+});
+
+
+
+
+
+
+
+
+
+

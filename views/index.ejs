@@ -5,28 +5,47 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/darkly/bootstrap.min.css" rel="stylesheet">
   <title>Image Gallery</title>
 </head>
 <body>
-  <h4>Graffiti Gallery</h4>
-  <nav>
-    <ul id="navbar">
-      <li><a href="/about">About</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-  </nav>
-  <div id="gallerywrapper">
-    <div><a href="images/graffiti1.jpg"><img src="images/graffiti1.jpg" alt="Graffiti One"></a></div>
-    <div><a href="images/graffiti3.jpg"><img src="images/graffiti3.jpg" alt="Graffiti Three"></a></div>
-    <div><a href="images/graffiti_100.jpg"><img src="images/graffiti_100.jpg" alt="Graffiti One Hundred"></a></div>
-    <div><a href="images/train.jpg"><img src="images/train.jpg" alt="Train"></a></div>
-    <div><a href="images/openroad.jpg"><img src="images/openroad.jpg" alt="Train"></a></div>
-    <div><a href="images/brusselssprouts.jpg"><img src="images/brusselssprouts.jpg" alt="Brussels Sprouts"></a></div>
-    <div><a href="images/ocean.jpg"><img src="images/ocean.jpg" alt="Ocean"></a></div>
-    <div><a href="images/field.jpg"><img src="images/field.jpg" alt="Field"></a></div>
-    <div><a href="images/sf_bridge.jpg"><img src="images/sf_bridge.jpg" alt="San Francisco Bridge"></a></div>
-    <div><a href="images/pink_flower.jpg"><img src="images/pink_flower.jpg" alt="Pink Flower"></a></div>
+  <div class="container">
+    <nav class="navbar navbar-info">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+            <li><a class="navbar-brand" href="#">Graffiti Gallery</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Draw me something</h4>
+        <canvas>Canvas</canvas>
+        <button class="btn btn-sm btn-success">Reset</button>
+      </div>
+
+      <div class="col-md-8">
+        <div id="gallerywrapper">
+          <div><a href="images/graffiti1.jpg"><img src="images/graffiti1.jpg" alt="Graffiti One"></a></div>
+          <div><a href="images/graffiti3.jpg"><img src="images/graffiti3.jpg" alt="Graffiti Three"></a></div>
+          <div><a href="images/graffiti_100.jpg"><img src="images/graffiti_100.jpg" alt="Graffiti One Hundred"></a></div>
+          <div><a href="images/train.jpg"><img src="images/train.jpg" alt="Train"></a></div>
+          <div><a href="images/openroad.jpg"><img src="images/openroad.jpg" alt="Train"></a></div>
+          <div><a href="images/brusselssprouts.jpg"><img src="images/brusselssprouts.jpg" alt="Brussels Sprouts"></a></div>
+          <div><a href="images/ocean.jpg"><img src="images/ocean.jpg" alt="Ocean"></a></div>
+          <div><a href="images/field.jpg"><img src="images/field.jpg" alt="Field"></a></div>
+          <div><a href="images/sf_bridge.jpg"><img src="images/sf_bridge.jpg" alt="San Francisco Bridge"></a></div>
+          <div><a href="images/pink_flower.jpg"><img src="images/pink_flower.jpg" alt="Pink Flower"></a></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/gallery.js" type="text/javascript" charset="utf-8"></script>
   </div>
-  <script src="js/gallery.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
