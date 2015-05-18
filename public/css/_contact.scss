@@ -13,3 +13,24 @@
   padding: 5%;
   margin: 2%;
 }
+
+.contactlink {
+  a:link {
+    color: $contact-primary-color;
+  }
+
+  /* visited link */
+  a:visited {
+    color: $contact-secondary-color;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: $contact-third-color;
+  }
+
+  /* selected link */
+  a:active {
+    color: $contact-fourth-color;
+  }
+}

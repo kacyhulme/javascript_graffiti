@@ -10,6 +10,19 @@
   padding: 5%;
   margin: 2%; }
 
+.contactlink {
+  /* visited link */
+  /* mouse over link */
+  /* selected link */ }
+  .contactlink a:link {
+    color: #DE0043; }
+  .contactlink a:visited {
+    color: #F04579; }
+  .contactlink a:hover {
+    color: #FF7D49; }
+  .contactlink a:active {
+    color: #CD3BCD; }
+
 #about {
   background: linear-gradient(#6250D3, white); }
 
@@ -24,6 +37,19 @@
   background-color: #4430c0;
   box-shadow: 0 0 8px #000000;
   text-align: center; }
+
+.aboutlink {
+  /* visited link */
+  /* mouse over link */
+  /* selected link */ }
+  .aboutlink a:link {
+    color: #DE0043; }
+  .aboutlink a:visited {
+    color: #F04579; }
+  .aboutlink a:hover {
+    color: #FF7D49; }
+  .aboutlink a:active {
+    color: #CD3BCD; }
 
 canvas {
   background: white;

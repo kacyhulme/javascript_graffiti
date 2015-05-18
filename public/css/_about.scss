@@ -16,3 +16,25 @@
   box-shadow: 0 0 8px #000000;
   text-align: center;
 }
+
+
+.aboutlink {
+  a:link {
+    color: $contact-primary-color;
+  }
+
+  /* visited link */
+  a:visited {
+    color: $contact-secondary-color;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: $contact-third-color;
+  }
+
+  /* selected link */
+  a:active {
+    color: $contact-fourth-color;
+  }
+}
