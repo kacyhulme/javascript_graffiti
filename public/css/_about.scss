@@ -4,19 +4,31 @@
   background: linear-gradient($about-primary-color, white);
 }
 
-.center {
+#aboutmain {
   border: 1px solid white;
-  padding: 10px 20px 30px 20px;
   border-radius: 5px;
+  background-color: $about-secondary-color;
+  padding: 10px 20px 30px 20px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: $about-secondary-color;
   box-shadow: 0 0 8px #000000;
   text-align: center;
 }
 
+
+@media screen and (min-width: 480px) {
+  #aboutmain {
+    border: 2px solid $contact-fourth-color;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    height: 90%;
+    padding: 5%;
+    margin: 2%;
+  }
+}
 
 .aboutlink {
   a:link {
