@@ -53,8 +53,8 @@
 
 canvas {
   background: white;
-  height: 20em;
-  width: 20em; }
+  height: 100%;
+  width: 100%; }
 
 #gallerywrapper {
   height: 100%; }
